@@ -1,0 +1,23 @@
+html {
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+    --text-color: rgba(0, 0, 0, 0.8);
+    --tag-color: rgba(0, 0, 0, 0.35);
+    --background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: rgba(200, 200, 200, 0.15);
+        --text-color: rgb(219, 220, 223, 1);
+        --tag-color: rgba(219, 220, 223, 0.35);
+        --background-color: rgba(12, 12, 12, 0.85);
+    }
+
+    img {
+        filter: invert(1);
+    }
+}
